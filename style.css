@@ -1,0 +1,330 @@
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:Verdana, Geneva, sans-serif;
+  background-image :url("https://www.freeworldmaps.net/asia/india/sikkim/sikkim-map.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: absolute;
+  background-size: 100% 100%;
+  top: 0%;
+  left: 0%;
+}
+
+
+.header {
+height: 650px;
+padding: 100px 100px;
+border: 0px;
+text-align:right;
+color: #fff;
+font-family:"Times New Roman", Times, sans-serif;
+
+background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/16/1d/20/47/private-tour-5-days-in.jpg');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+ 
+}
+
+.header h1 {
+  font-size: 90px;
+ background: -webkit-linear-gradient(#fff, #999999);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+text-decoration: none;
+
+}
+.header h2{
+ font-size:  50px;
+ color:#349be0;
+}
+
+ul {
+list-style-type: none;
+overflow: hidden;
+ margin: 0.2px;
+  padding: 10;
+  background-color: #333;
+  position: sticky;
+  width:100%;
+}
+
+li {
+ 
+float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ 
+transition-duration: 0.5s;
+}
+
+a:hover:not(.active) {
+  background-color: #000;
+   border: 1px
+  border-color: blue;
+  cursor:  pointer;
+  transition-duration: 0.5s;
+}
+
+.active {
+  background-color:#4CAF50;
+}
+
+
+.center{
+padding-top: 40px;
+font-size: 40px;
+font-family: "Times New Roman", Times, serif;
+text-align: center;
+color: #c7c7c7;
+}
+
+.row:after {
+content:"";
+display: table;
+clear: both;
+}
+
+.columnInfo{
+float: right;
+width: 28%;
+height: 1250px;
+padding: 0px;
+background-image: url('https://www.mapsofindia.com/ci-moi-images/hindimoi//2020/04/Sikkim-Hindi-Map-Hindi.jpg');
+border: 10px;
+background-repeat: no-repeat;
+background-size: 100% 33.5%;
+}
+
+.columnInfo h2{
+font-size: 35px;
+text-align: center;
+}
+
+.columnInfo1{
+
+float: right;
+width: 0.5%;
+height:1250px;
+padding:1px;
+}
+
+.columnInfo2{
+float: right;
+width: 71.5%;
+height: 1250px;
+padding: 10px;
+color: #fff;
+}
+
+.History{
+position: static;
+background-image: linear-gradient(to top right,rgb(26, 188, 156),rgb(18, 135, 111));
+height: 650px;
+}
+
+.History h1{
+text-align: center;
+font-size: 50px;
+color: #d9d330;
+}
+
+
+.columnWidth{
+float:right;
+width: 1%;
+height: 500px;
+}
+
+.columnHistoryImg1{
+float: left;
+width: 20%;
+height: 500px;
+padding: 5px;
+}
+
+.columnHistoryImg2{
+float: left;
+width: 20%;
+height: 500px;
+padding: 5px;
+}
+
+
+
+.columnHistoryMain{
+float: right;
+width: 58%;
+height: 500px;
+color: #fff;
+}
+
+.columnHistoryMain{
+font-size: 20px;
+}
+
+.columnHistoryMain h2{
+color: #ed68e2;
+font-size: 40px;
+
+}
+
+.columnHistoryImg1 img {
+top: 20px;
+width: 95%;
+height: 350px;
+background-color: black;
+size: 50% 50%;
+padding: 5px
+}
+
+.columnHistoryImg2 img {
+width: 95%;
+height: 180px;
+background-color: black;
+size: 50% 50%;
+padding: 5px;
+}
+
+.columnInfo img{
+
+width: 100%;
+height:  270px;
+background-color:black;
+border: 0px;
+size: 100% 100%;
+}
+
+.columnInfo2 img{
+
+width: 100%;
+height:  450px;
+background-color:black;
+border: 0px;
+size: 100% 100%;
+}
+
+.columnInfo2 h2{
+color: #bdbdbd;
+}
+
+.imgCaption{
+padding: 0px;
+text-align: center;
+font-size: 20px;
+color: #151a19;
+/*background: -webkit-linear-gradient(#03adfc, #03fcf4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+text-decoration: underline;*/
+}
+
+
+.footer{
+
+width: 100%;
+height:300px;
+background: #17181b;
+}
+
+.footerAbout{
+float:left;
+width:33%;
+height:300px;
+background:none;
+}
+
+.logo{
+padding:40px;
+font-size: 40px;
+font-family: "Impact", carcoal,sans-serif;
+text-align: center;
+color: #366f91;
+}
+
+.footerAbout p{
+padding: 10px;
+font-size: 20px;
+font-family: "Times New Roman", Times, Serif;
+color: #fff;
+text-align: center;
+}
+
+.footerLinks{
+float: left;
+height: 300px;
+width: 33%;
+
+}
+
+.button{
+font-size: 25px;
+color: #72cfa5;
+border: none;
+height:50px;
+width: 200px;
+background: none;
+cursor: pointer;
+position: relative;
+left: 10%;
+transition-duration: 0.5s;
+}
+
+.button:hover{
+
+color: #8bb3a1;
+transition-duration: 0.5s;
+border-radius: 10px;
+background: #0a0d0b;
+}
+
+#b1{
+top: 75%;
+}
+
+.footerContact{
+float: left;
+width: 33%;
+background: none;
+position: relative;
+top: 40%;
+font-size: 36px;
+
+}
+
+.Email{
+padding: 10px;
+height: 40px;
+width: 300px;
+background: #0a0d0b;
+color: #fff;
+border: none;
+border-radius:5px;
+}
+
+.footerend{
+width:100%;
+height: 50px;
+background:#1c1d21;
+color: #fff;
+text-align: center;
+font-family:'Nunito Sans', sans-serif;
+font-size: 1rem;
+padding-top: 1rem;
+padding-bottom: 1rem;
+
+}
+
+
+</style>
